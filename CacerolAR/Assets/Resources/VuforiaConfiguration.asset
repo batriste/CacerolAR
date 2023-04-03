@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   vuforia:
     vuforiaLicenseKey: AQ3DpK//////AAABmXjRaA7r10eQtX+v7zkpkU5SV/oYc2GSnHc2d+BgAD0nRNghsb44RRmPIF8/xu2g3De2rWGoNDu08LXv1ZvDQuIGhj0x8DggySG1gemDodc/stpGweDKNqC+KpfGOskGOaS6F7ddPOdZJ8mzFME7BxUqD6VJB+wv2fxe55r80AymIs/mpTeGlSwEKvtqOW0RiN1p7oQpRicAPdi2OgRqbRQgjM7j8moFxHRsur4kqqIGS3g/NIIn8Y9RTUbmH1tejP4ij35Jeh9nH1F796HaQCIwJgJOvCUQ1BvnyvLi4ABzOcsupEw1TDL/UqWcBQgNJke+cP7cd5IVX5BD/OA7O1QGm8oUslieO12VQFKnQzlH
-    ufoLicenseKey: QWZvaEZkai8vLy8vQUFBQUtBSzBqcjlrU1V6c2pUaDk0bmJYSG45L3AwRXJITDVtekpPSlovYVF4MnZMS0t2TStyODhGNkZERkU5WVhUSHg0QzR5YzJSbVVHUm1zY3FHZ0w1YjV6ZmlCRWlLN0RZbkhQd3NEQ29UQUhNdHQxYlZxbCtvQUJEZit0b1B4blJNdDc4aEtwQXh4bEE2WUpQdHp6SlhoamJUNEQ1YUNuTnUxaDZHT3FENkl3c3ZsUHBxa25JQ0tvLzBOUkFIQjQ0YXkvM3Z0UlY4bURrMjVUTHpLVnVXU2ZNWXlDOXRTUGt5MkQrdG15RkNtazI1dG1IZDlmTTA0enh1UldFbXRsS08zRHFxMktRS3I4R1Y0VHk5d051dE9pM3c5bFRyOWMvc0orY0IxQWs0YmhWY2l6WW5mTXJ4bE9sUWZ4SHRIUnAzSm9rbUN0dndNeDlMRVlQYjNiNHJZUWxOOUc1cW84VStMdEJ1eXQ1bWRZQkQ=
+    ufoLicenseKey: QVl0aDg1TC8vLy8vQUFBQUtCRk53cHN1alVGWWgrZnhISFZ3Vm5pRUl4Q1hubzdlTTRmMVJPRHVqaGE5SkF6WlhNRDlhazFPNkpIV1hWdFVTaHcwb05rTHhUdWxjd1JhM1dJSjVuekVSNzRYZzYrTnJkeVVRNHFubTZJWlpTbFhQYTd2amRBMFQySXRvWmlzM0JDbHlzMkx2YlJhY3dIdTRaNk85VUVYQm9pV0xQZExIN216RmRPSHpVeC96SmttOWhQaENhak5DSmp5eG9kLzgwS3NMc0RVU0dldXJ6endPY2lTQVpjSUxIcUpVS01kZXkzUVN1RlRObFNYRWpGejNVSTJyYUtTOG5pWlZuQlQyZmJjaUFNRExUOEZka0M2ZnJiL1FVVzUrZXlYYnRlb3VQKy93R1hMakphY2ZYSnRVcERjR0l4TW85NDZ2NkZtUkF5bllJdzB4Vzk1Y2F1WDhSZUhaUmZma1B3YVRlWEZmZEt2OVJpWXFwNFY=
     delayedInitialization: 0
     cameraFocusModeSetting: 2
     cameraDeviceModeSetting: -1
@@ -24,7 +24,7 @@ MonoBehaviour:
     shareRecordingsInITunes: 0
     logLevel: 0
     version: 10.13.3
-    eulaAcceptedVersions: '{"Values":["10.12","10.13"]}'
+    eulaAcceptedVersions: '{"Values":["10.13"]}'
   database:
     disableModelExtraction: 0
   shaders:
@@ -37,9 +37,9 @@ MonoBehaviour:
     unlitShader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
     videoBackgroundEnabled: 1
   deviceTracker:
-    autoStartTracker: 1
+    autoStartTracker: 0
     arcoreRequirement: 1
-    autoImportArcore: 0
+    autoImportArcore: 1
     thirdPartyARCoreClientDetected: 0
   playmode:
     mSequencePath: 

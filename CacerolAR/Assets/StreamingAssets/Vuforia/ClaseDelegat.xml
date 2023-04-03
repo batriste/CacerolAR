@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="ReferCassos" size="0.160000 0.214966" />
+    <ImageTarget name="prueba" size="0.160000 0.124124" />
+    <ImageTarget name="ReferenciaTercera" size="0.150000 0.150000" />
+    <ImageTarget name="ReferenciaSegunda" size="0.150000 0.150000" />
+    <ImageTarget name="ReferenciaPrimera" size="0.150000 0.150000" />
+    <ImageTarget name="trex" size="7.600000 7.600000" />
+    <ImageTarget name="reference" size="5.400000 5.400000" />
+  </Tracking>
+</QCARConfig>

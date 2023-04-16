@@ -465,7 +465,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 04e866d977b2d9542a9ea164404ffab7, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -574,11 +574,50 @@ MonoBehaviour:
   m_GameObject: {fileID: 289006544}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6b746ff759579d0489d09b6a798bc88d, type: 3}
+  m_Script: {fileID: 11500000, guid: ddda6a577544e6247a3b988bba6ae342, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   img: {fileID: 1382275427}
-  TextMeshPro: {fileID: 0}
+  TMP: {fileID: 0}
+  frases:
+  - "                                                                                                                                                                     
+    Las cacerolas de cer\xE1mica son una invenci\xF3n \xFAtil y vers\xE1til que se
+    ha utilizado durante siglos para cocinar y preparar alimentos. Ofrecen una cocci\xF3n
+    uniforme y eficiente, son vers\xE1tiles en su uso y no son t\xF3xicas, lo que
+    las convierte en una excelente opci\xF3n para cualquier hogar."
+  - "                                                                                                                                                                     
+    Los jarrones de cer\xE1mica son recipientes tanto para alimentos o bebida, como
+    decorativos y pr\xE1cticos que han sido utilizados durante miles de a\xF1os.
+    Son duraderos, vers\xE1tiles y vienen en una amplia variedad de dise\xF1os y
+    colores."
+  - "La cer\xE1mica fue utilizada por primera vez en nuestro territorio con la aparici\xF3n
+    de grupos humanos de agricultores y ganaderos, formando parte de su patrimonio
+    cultural. Esto sucedi\xF3 hace siete milenios, mucho despu\xE9s de la aparici\xF3n
+    de estas t\xE9cnicas en el Pr\xF3ximo Oriente. Un nuevo per\xEDodo cultural,
+    del cual todos somos herederos, prosperaba de una manera singular en nuestras
+    tierras, el Neol\xEDtico."
+  - "La muerte del \xFAltimo alfarero en actividad, \xC1ngel Dom\xEDnguez, en el
+    a\xF1o 1983, marc\xF3 el final de una actividad artesanal con tradici\xF3n milenaria
+    en el t\xE9rmino municipal de Potries.  Nos encontramos ante una saga de alfareros
+    muy arraigada en Potries, con una considerable cantidad de ramificaciones familiares.
+    Los Dom\xEDnguez aparecen en los registros parroquiales del siglo XVIII, aunque
+    estas fuentes documentales no nos informan si se dedican a la alfarer\xEDa, aunque
+    sospechamos que s\xED."
+  - "En la vida de un artesano de la cer\xE1mica, su esposa y sus hijas a menudo
+    colaboran en el taller, trabajando en diversas tareas que van desde el modelado
+    de las piezas hasta su decoraci\xF3n y comercializaci\xF3n. La esposa del alfarero
+    puede encargarse de la preparaci\xF3n y mezcla de las arcillas, as\xED como del
+    amasado y la preparaci\xF3n de la cer\xE1mica antes de su cocci\xF3n. Adem\xE1s,
+    tambi\xE9n puede colaborar en el proceso de cocci\xF3n y en la selecci\xF3n de
+    las piezas para su venta."
+  selected: 0
+  scanner: {fileID: 1264334937}
+  sprites:
+  - {fileID: 21300000, guid: 674d2a641e91bd242a3e7e6d22150de8, type: 3}
+  - {fileID: 21300000, guid: 2e3c642795553934d9fa5e99234d834b, type: 3}
+  - {fileID: 21300000, guid: f501a95fc042f264fa542c3913c8d510, type: 3}
+  - {fileID: 21300000, guid: a6423b42e575e4549aac27afc451af6d, type: 3}
+  - {fileID: 21300000, guid: 3fb83b513e9be1b478d8f1a88d0e6e2f, type: 3}
 --- !u!1 &314264568
 GameObject:
   m_ObjectHideFlags: 0
@@ -637,7 +676,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: CacerolAR
+  m_text: 'L''ultim Terrisser
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -727,7 +768,7 @@ GameObject:
   - component: {fileID: 450108097}
   - component: {fileID: 450108096}
   m_Layer: 5
-  m_Name: CacerolaIndex (4)
+  m_Name: 'CacerolaIndex (3) '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -748,7 +789,7 @@ RectTransform:
   - {fileID: 221228975}
   - {fileID: 314264569}
   m_Father: {fileID: 1864073800}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -798,7 +839,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 450108097}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 289006549}
+        m_TargetAssemblyTypeName: ListController, Assembly-CSharp
+        m_MethodName: changeObjto3
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &450108097
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1030,7 +1083,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 674d2a641e91bd242a3e7e6d22150de8, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1378,7 +1431,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 3fb83b513e9be1b478d8f1a88d0e6e2f, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1548,7 +1601,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 81a7da153dac0ce4981ccca9d82d64f5, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1714,7 +1767,7 @@ GameObject:
   - component: {fileID: 1229223700}
   - component: {fileID: 1229223699}
   m_Layer: 5
-  m_Name: CacerolaIndex (3)
+  m_Name: CacerolaIndex (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1735,7 +1788,7 @@ RectTransform:
   - {fileID: 963046733}
   - {fileID: 1909103623}
   m_Father: {fileID: 1864073800}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -1785,7 +1838,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1229223700}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 289006549}
+        m_TargetAssemblyTypeName: ListController, Assembly-CSharp
+        m_MethodName: changeObjto4
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1229223700
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2092,7 +2157,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: f501a95fc042f264fa542c3913c8d510, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2194,7 +2259,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1483904698}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 289006549}
+        m_TargetAssemblyTypeName: ListController, Assembly-CSharp
+        m_MethodName: changeObjto2
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1483904698
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2246,7 +2323,7 @@ GameObject:
   - component: {fileID: 1495991299}
   m_Layer: 5
   m_Name: Text (TMP)
-  m_TagString: Untagged
+  m_TagString: find
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2269,7 +2346,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1500, y: 550}
+  m_SizeDelta: {x: 1300, y: 550}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1495991299
 MonoBehaviour:
@@ -2291,7 +2368,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Este Es El Text Referencial Que ha de ser Modificat
+  m_text: Este Es El Text Referencial Que ha de ser Modificat 1500 es buen width
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2566,6 +2643,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 289006549}
+        m_TargetAssemblyTypeName: ListController, Assembly-CSharp
+        m_MethodName: changeObjto0
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1722673745
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2806,6 +2895,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 289006549}
+        m_TargetAssemblyTypeName: ListController, Assembly-CSharp
+        m_MethodName: changeObjto1
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1811183308
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2877,8 +2978,8 @@ RectTransform:
   - {fileID: 1722673743}
   - {fileID: 1811183306}
   - {fileID: 1483904696}
-  - {fileID: 1229223698}
   - {fileID: 450108095}
+  - {fileID: 1229223698}
   m_Father: {fileID: 1726868081}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2971,7 +3072,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: CacerolAR
+  m_text: Les Dones
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -3106,7 +3207,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: CacerolAR
+  m_text: 'Historia
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

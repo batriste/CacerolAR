@@ -24,7 +24,7 @@ public class MenuController : MonoBehaviour
     {
         switch (selected)
         {
-            case 0: SceneManager.LoadScene("CameraScanner"); break;
+            case 0: SceneManager.LoadScene("CameraScanner 1"); break;
             case 1:SceneManager.LoadScene("Jarron"); break;
             default:break;
         }
@@ -42,6 +42,10 @@ public class MenuController : MonoBehaviour
         Application.Quit();
     }
     public void BackButton()
+    {
+        SceneManager.LoadScene("SampleScene");
+    }
+    public void BackButtonToHistoric()
     {
         SceneManager.LoadScene("SampleScene");
     }

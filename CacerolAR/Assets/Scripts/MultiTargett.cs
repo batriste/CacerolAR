@@ -8,13 +8,13 @@ public class MultiTargett : MonoBehaviour
     private int modelsCount;
     private int indextCurrentModel;
 
-    public float RotationSpeed;
+    //public float RotationSpeed;
 
     // Start is called before the first frame update
     void Start()
     {
         modelsCount = transform.childCount;
- indextCurrentModel = startModel.transform.GetSiblingIndex(); 
+        indextCurrentModel = startModel.transform.GetSiblingIndex(); 
     }
     public void ChangeARModel(int index)
     {
@@ -37,6 +37,6 @@ public class MultiTargett : MonoBehaviour
     void Update()
     {
         
-        transform.GetChild(indextCurrentModel).gameObject.transform.Rotate(0f, RotationSpeed, 0f);
+        //transform.GetChild(indextCurrentModel).gameObject.transform.Rotate(0f, RotationSpeed, 0f);
     }
 }

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+<QCARConfig>
   <Tracking>
+    <ImageTarget name="Target-01" size="0.641614 0.849676" />
     <ImageTarget name="ReferCassos" size="0.160000 0.214966" />
     <ImageTarget name="prueba" size="0.160000 0.124124" />
     <ImageTarget name="ReferenciaTercera" size="0.150000 0.150000" />

@@ -49,6 +49,10 @@ public class MenuController : MonoBehaviour
     {
         SceneManager.LoadScene("SampleScene");
     }
+    public void ShowHideCanvas(GameObject obj)
+    {
+        obj.SetActive(!obj.activeInHierarchy);
+    }
     // Update is called once per frame
     void Update()
     {
